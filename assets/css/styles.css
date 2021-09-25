@@ -6,59 +6,33 @@
 .bluebar{fill: #009BDD;}
 .redbar{fill: #F03327; }
 
-
-
+* {
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+}
 
 .helmet {
-  font-family: Roboto, sans-serif;
   font-size: 9.375rem;
-  font-style: bold;
   text-align: center;
-  /* width: 485px;
-  height: 120px;
-  top: 220px;
-  left: 333px;
-  position: absolute; */
+}
 
+.hammerhead-parent{
+  position: relative;
 }
 
 .hammerhead {
-  font-family: Roboto, sans-serif;
   font-size: 1.6875rem;
-  font-style: bold;
-  text-align: left;
   position: absolute;
-  bottom: 12px;
-  /* width: 167px;
-  height: 120px;
-  top: 220px;
-  left: 862px;
-  position: absolute;
-  vertical-align: baseline; */
-
+  line-height: 2rem;
+  bottom: 50px;
 }
 
 .date {
-  font-family: Roboto, sans-serif;
   font-size: 1rem;
-  font-style: bold;
   text-align: right;
-  /* width: 155px;
-  height: 90px;
-  left: 660px;
-  position: absolute;
-  vertical-align: baseline; */
 }
 
 .vatican {
-  font-family: Roboto, sans-serif;
   font-size: 1rem;
-  font-style: bold;
   text-align: left;
-  /* width: 155px;
-  height: 90px;
-  left: 660px;
-  position: absolute;
-  vertical-align: baseline; */
-
 }
