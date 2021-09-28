@@ -15,28 +15,55 @@
   position: relative;
 }
 
+/* sizes xs, s */
 .helmet {
-  font-size: 10vw;
+  font-size: 12vw;
   text-align: center;
   text-decoration: none;
   color: #000000;
 }
 
 .hammerhead {
-  font-size: 1.6875vw;
-  line-height: 2vw;
-  bottom: 4vw;
+  font-size: 2.75vw;
+  line-height: 2.8vw;
+  bottom: 5vw;
   position: absolute;
 }
 
 .date {
-  font-size: 1.3vw;
-  line-height: 1.7vw;
+  font-size: 2.5vw;
+  line-height: 2.8vw;
   text-align: right;
 }
 
 .vatican {
-  font-size: 1.3vw;
-  line-height: 1.7vw;
+  font-size: 2.5vw;
+  line-height: 2.8vw;
   text-align: left;
+}
+
+/* size m */
+@media (min-width: 768px) {
+  .date {
+    font-size: 2.5vw;
+    line-height: 2.8vw;
+  }
+
+  .vatican {
+    font-size: 2.5vw;
+    line-height: 2.8vw;
+  }
+}
+
+/* size l, xl */
+@media (min-width: 992px) {
+  .date {
+    font-size: 1.5vw;
+    line-height: 1.7vw;
+  }
+
+  .vatican {
+    font-size: 1.5vw;
+    line-height: 1.7vw;
+  }
 }
