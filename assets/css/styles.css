@@ -45,13 +45,13 @@
 /* size m */
 @media (min-width: 768px) {
   .date {
-    font-size: 2.5vw;
-    line-height: 2.8vw;
+    font-size: 2vw;
+    line-height: 2.25vw;
   }
 
   .vatican {
-    font-size: 2.5vw;
-    line-height: 2.8vw;
+    font-size: 2vw;
+    line-height: 2.25vw;
   }
 }
 
