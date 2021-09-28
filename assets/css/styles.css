@@ -11,28 +11,30 @@
   font-weight: bold;
 }
 
-.helmet {
-  font-size: 9.375rem;
-  text-align: center;
-}
-
 .hammerhead-parent{
   position: relative;
 }
 
+.helmet {
+  font-size: 10vw;
+  text-align: center;
+}
+
 .hammerhead {
-  font-size: 1.6875rem;
+  font-size: 1.6875vw;
+  line-height: 2vw;
+  bottom: 4vw;
   position: absolute;
-  line-height: 2rem;
-  bottom: 50px;
 }
 
 .date {
-  font-size: 1rem;
+  font-size: 1.3vw;
+  line-height: 1.7vw;
   text-align: right;
 }
 
 .vatican {
-  font-size: 1rem;
+  font-size: 1.3vw;
+  line-height: 1.7vw;
   text-align: left;
 }
